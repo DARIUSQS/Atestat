@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Atestat
 {
-    public partial class Form1 : Form
+    public partial class MediaBlock : UserControl
     {
-        public Form1()
+        public MediaBlock()
         {
             InitializeComponent();
         }
