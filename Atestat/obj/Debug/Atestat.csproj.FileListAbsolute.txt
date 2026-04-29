@@ -1,0 +1,13 @@
+C:\Dev\Atestat\Atestat\bin\Debug\Atestat.exe.config
+C:\Dev\Atestat\Atestat\bin\Debug\Atestat.exe
+C:\Dev\Atestat\Atestat\bin\Debug\Atestat.pdb
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.csproj.AssemblyReference.cache
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.Login.resources
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.Properties.Resources.resources
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.SignIn.resources
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.csproj.GenerateResource.cache
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.csproj.CoreCompileInputs.cache
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.exe
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.pdb
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.Main.resources
+C:\Dev\Atestat\Atestat\obj\Debug\Atestat.MediaBlock.resources
