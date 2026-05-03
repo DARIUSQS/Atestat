@@ -11,11 +11,22 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Atestat
 {
-    public partial class Login : Form
+    public struct User
     {
+        public int Id;
+        public string Username;
+        public string Password;
+    };
+
+    public partial class Login : Form
+    { 
+        public static User CurrentUser;
         public Login()
         {
             InitializeComponent();
+
+            LoginButton.FlatStyle = FlatStyle.Flat;
+            LoginButton.FlatAppearance.BorderSize = 0;
         }
 
         private void loginText_Click(object sender, EventArgs e)
@@ -47,9 +58,20 @@ namespace Atestat
             {
                 var adapter = new atestatDataSetTableAdapters.UserTableAdapter();
                 int result = (int)adapter.CheckLogin(username, password);
-                if (result > 0)
+
+                var userData = adapter.GetDataByNameAndPassword(username, password);
+
+                if (result == 1)
                 {
-                    MessageBox.Show("User Found Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    CurrentUser.Id = userData[0].Id;
+                    CurrentUser.Username = userData[0].name;
+                    CurrentUser.Password = userData[0].password;
+
+                    Main MainForm = new Main();
+                    MainForm.Show();
+                    this.Hide();
+
+                    return;
                 }
                 else
                 {

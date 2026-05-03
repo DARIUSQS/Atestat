@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,7 +17,14 @@ namespace Atestat
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new Login());
         }
+    }
+
+    class ProgramManager
+    {
+        public static Image m_MovieImage = Image.FromFile("../../Assets/movieicon.png");
+        public static Image m_BookImage = Image.FromFile("../../Assets/bookicon.png");
+        public static Image m_SeriesImage = Image.FromFile("../../Assets/tvshowicon.png");
     }
 }

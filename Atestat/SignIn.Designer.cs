@@ -43,6 +43,8 @@
             // 
             // LoginButton
             // 
+            this.LoginButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginButton.ForeColor = System.Drawing.SystemColors.Control;
             this.LoginButton.Location = new System.Drawing.Point(143, 234);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(134, 48);
@@ -68,20 +70,22 @@
             // PWText
             // 
             this.PWText.AutoSize = true;
-            this.PWText.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PWText.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PWText.ForeColor = System.Drawing.SystemColors.Control;
             this.PWText.Location = new System.Drawing.Point(80, 144);
             this.PWText.Name = "PWText";
-            this.PWText.Size = new System.Drawing.Size(82, 18);
+            this.PWText.Size = new System.Drawing.Size(76, 20);
             this.PWText.TabIndex = 9;
             this.PWText.Text = "Password";
             // 
             // UNText
             // 
             this.UNText.AutoSize = true;
-            this.UNText.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UNText.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UNText.ForeColor = System.Drawing.SystemColors.Control;
             this.UNText.Location = new System.Drawing.Point(80, 62);
             this.UNText.Name = "UNText";
-            this.UNText.Size = new System.Drawing.Size(84, 18);
+            this.UNText.Size = new System.Drawing.Size(80, 20);
             this.UNText.TabIndex = 8;
             this.UNText.Text = "Username";
             this.UNText.Click += new System.EventHandler(this.UNText_Click);
@@ -89,12 +93,13 @@
             // loginText
             // 
             this.loginText.AutoSize = true;
-            this.loginText.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginText.Location = new System.Drawing.Point(163, 9);
+            this.loginText.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginText.ForeColor = System.Drawing.SystemColors.Control;
+            this.loginText.Location = new System.Drawing.Point(138, 9);
             this.loginText.Name = "loginText";
-            this.loginText.Size = new System.Drawing.Size(97, 25);
+            this.loginText.Size = new System.Drawing.Size(144, 30);
             this.loginText.TabIndex = 7;
-            this.loginText.Text = "Sign Up:";
+            this.loginText.Text = "Sign Up Page";
             this.loginText.Click += new System.EventHandler(this.loginText_Click);
             // 
             // EmailBox
@@ -107,10 +112,11 @@
             // MAILText
             // 
             this.MAILText.AutoSize = true;
-            this.MAILText.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MAILText.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MAILText.ForeColor = System.Drawing.SystemColors.Control;
             this.MAILText.Location = new System.Drawing.Point(80, 103);
             this.MAILText.Name = "MAILText";
-            this.MAILText.Size = new System.Drawing.Size(56, 18);
+            this.MAILText.Size = new System.Drawing.Size(53, 20);
             this.MAILText.TabIndex = 14;
             this.MAILText.Text = "E-Mail";
             // 
@@ -124,20 +130,24 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(80, 183);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 18);
+            this.label2.Size = new System.Drawing.Size(85, 20);
             this.label2.TabIndex = 17;
             this.label2.Text = "Birth Date:";
             // 
             // loginLabel
             // 
             this.loginLabel.AutoSize = true;
+            this.loginLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginLabel.ForeColor = System.Drawing.SystemColors.Control;
             this.loginLabel.LinkArea = new System.Windows.Forms.LinkArea(29, 6);
+            this.loginLabel.LinkColor = System.Drawing.Color.DeepSkyBlue;
             this.loginLabel.Location = new System.Drawing.Point(117, 304);
             this.loginLabel.Name = "loginLabel";
-            this.loginLabel.Size = new System.Drawing.Size(181, 17);
+            this.loginLabel.Size = new System.Drawing.Size(178, 20);
             this.loginLabel.TabIndex = 18;
             this.loginLabel.TabStop = true;
             this.loginLabel.Text = "In case you have an account, log in";
@@ -148,7 +158,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 342);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.ClientSize = new System.Drawing.Size(407, 342);
             this.Controls.Add(this.loginLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DateTimePicker);
@@ -162,6 +173,7 @@
             this.Controls.Add(this.loginText);
             this.Name = "SignIn";
             this.Text = "SignIn";
+            this.Load += new System.EventHandler(this.SignIn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

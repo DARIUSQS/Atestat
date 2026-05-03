@@ -16,6 +16,9 @@ namespace Atestat
         public SignIn()
         {
             InitializeComponent();
+
+            LoginButton.FlatStyle = FlatStyle.Flat;
+            LoginButton.FlatAppearance.BorderSize = 0;
         }
 
         private void loginLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -62,6 +65,15 @@ namespace Atestat
         }
 
         private void UNText_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Location = this.Location;
+
+            login.Show();
+            this.Close();
+        }
+
+        private void SignIn_Load(object sender, EventArgs e)
         {
 
         }
