@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -33,6 +34,7 @@ namespace Atestat
         public int Id;
         public string Username;
         public string Password;
+        public int Admin;
     };
 
     public struct MediaInformation

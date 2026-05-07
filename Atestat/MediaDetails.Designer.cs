@@ -81,19 +81,19 @@
             this.DescriptionLabel.ForeColor = System.Drawing.SystemColors.Control;
             this.DescriptionLabel.Location = new System.Drawing.Point(298, 138);
             this.DescriptionLabel.Name = "DescriptionLabel";
-            this.DescriptionLabel.Size = new System.Drawing.Size(377, 164);
+            this.DescriptionLabel.Size = new System.Drawing.Size(551, 164);
             this.DescriptionLabel.TabIndex = 11;
             this.DescriptionLabel.Text = "Description";
             this.DescriptionLabel.Click += new System.EventHandler(this.DescriptionLabel_Click);
             // 
             // ReviewBox
             // 
-            this.ReviewBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(30)))));
+            this.ReviewBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(24)))), ((int)(((byte)(31)))));
             this.ReviewBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.ReviewBox.ForeColor = System.Drawing.SystemColors.Control;
             this.ReviewBox.Location = new System.Drawing.Point(10, 400);
             this.ReviewBox.Name = "ReviewBox";
-            this.ReviewBox.Size = new System.Drawing.Size(651, 164);
+            this.ReviewBox.Size = new System.Drawing.Size(839, 164);
             this.ReviewBox.TabIndex = 13;
             this.ReviewBox.Text = "";
             this.ReviewBox.TextChanged += new System.EventHandler(this.ReviewBox_TextChanged);
@@ -103,7 +103,7 @@
             this.LogOutButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.LogOutButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOutButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.LogOutButton.Location = new System.Drawing.Point(515, 586);
+            this.LogOutButton.Location = new System.Drawing.Point(703, 585);
             this.LogOutButton.Name = "LogOutButton";
             this.LogOutButton.Size = new System.Drawing.Size(146, 55);
             this.LogOutButton.TabIndex = 14;
@@ -113,21 +113,20 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.AutoSize = true;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(13, 760);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(10, 748);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(650, 523);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(836, 523);
             this.flowLayoutPanel1.TabIndex = 15;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(30)))));
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(24)))), ((int)(((byte)(31)))));
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.richTextBox1.ForeColor = System.Drawing.SystemColors.Control;
             this.richTextBox1.Location = new System.Drawing.Point(10, 305);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(651, 78);
+            this.richTextBox1.Size = new System.Drawing.Size(839, 78);
             this.richTextBox1.TabIndex = 16;
             this.richTextBox1.Text = "";
             // 
@@ -148,8 +147,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(687, 683);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.ClientSize = new System.Drawing.Size(878, 683);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.flowLayoutPanel1);

@@ -3,22 +3,27 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Atestat
 {
-
-
+    
+    
     public partial class Login : Form
     { 
         public static User CurrentUser;
         public Login()
         {
             InitializeComponent();
+
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
 
             LoginButton.FlatStyle = FlatStyle.Flat;
             LoginButton.FlatAppearance.BorderSize = 0;
@@ -61,6 +66,7 @@ namespace Atestat
                     CurrentUser.Id = userData[0].Id;
                     CurrentUser.Username = userData[0].name;
                     CurrentUser.Password = userData[0].password;
+                    CurrentUser.Admin = userData[0].admin;
 
                     Main MainForm = new Main();
                     MainForm.Show();
@@ -82,7 +88,6 @@ namespace Atestat
 
         private void Login_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

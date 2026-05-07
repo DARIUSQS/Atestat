@@ -47,6 +47,9 @@ namespace Atestat
         {
             InitializeComponent();
 
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
             /// Buttons
             mediaButton.FlatStyle = FlatStyle.Flat;
             mediaButton.FlatAppearance.BorderSize = 0;

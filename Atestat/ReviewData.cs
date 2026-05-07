@@ -13,17 +13,17 @@ namespace Atestat
     public partial class ReviewData : UserControl
     {
         ReviewInformation reviewData;
-        public ReviewData()
+        Action act;
+        public ReviewData(ReviewInformation reviewData, Action Init)
         {
             InitializeComponent();
+            this.reviewData = reviewData;
+            act = Init;
+            if(Login.CurrentUser.Admin == 0)
+            {
+                RemoveButton.Visible = false;
+            }
         }
-
-        public ReviewInformation ReviewDataInfo
-        {
-            get { return reviewData; }
-            set { reviewData = value; }
-        }
-
         private void ReviewData_Load(object sender, EventArgs e)
         {
             TitleBox.Text = reviewData.Title;
@@ -43,7 +43,10 @@ namespace Atestat
 
         private void RemoveButton_Click(object sender, EventArgs e)
         {
-
+            var adapter = new atestatDataSetTableAdapters.ReviewTableAdapter();
+            adapter.DeleteQuery(reviewData.Id);
+            //MessageBox.Show("Review Deleted: " + reviewData.Id, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            act();
         }
     }
 }

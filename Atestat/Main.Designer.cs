@@ -44,8 +44,8 @@
             // 
             // mainPanel
             // 
-            this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.mainPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.mainPanel.Location = new System.Drawing.Point(218, 0);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(819, 590);
@@ -54,7 +54,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.LogOutButton);
             this.panel1.Controls.Add(this.UsernameLabel);
@@ -70,7 +70,7 @@
             // 
             // LogOutButton
             // 
-            this.LogOutButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.LogOutButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.LogOutButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOutButton.ForeColor = System.Drawing.SystemColors.Control;
             this.LogOutButton.Location = new System.Drawing.Point(119, 502);
@@ -114,7 +114,7 @@
             // 
             // reviewButton
             // 
-            this.reviewButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.reviewButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.reviewButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reviewButton.ForeColor = System.Drawing.SystemColors.Control;
             this.reviewButton.Location = new System.Drawing.Point(-1, 166);
@@ -127,7 +127,7 @@
             // 
             // mediaButton
             // 
-            this.mediaButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.mediaButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.mediaButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mediaButton.ForeColor = System.Drawing.SystemColors.Control;
             this.mediaButton.Location = new System.Drawing.Point(-1, 102);

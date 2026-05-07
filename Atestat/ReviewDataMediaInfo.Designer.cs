@@ -66,7 +66,7 @@
             this.DescriptionLabel.ForeColor = System.Drawing.SystemColors.Control;
             this.DescriptionLabel.Location = new System.Drawing.Point(130, 58);
             this.DescriptionLabel.Name = "DescriptionLabel";
-            this.DescriptionLabel.Size = new System.Drawing.Size(523, 164);
+            this.DescriptionLabel.Size = new System.Drawing.Size(573, 164);
             this.DescriptionLabel.TabIndex = 12;
             this.DescriptionLabel.Text = "Description";
             this.DescriptionLabel.Click += new System.EventHandler(this.DescriptionLabel_Click);
@@ -84,9 +84,10 @@
             // MediaLabel
             // 
             this.MediaLabel.AutoSize = true;
+            this.MediaLabel.Dock = System.Windows.Forms.DockStyle.Right;
             this.MediaLabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.MediaLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.MediaLabel.Location = new System.Drawing.Point(589, 12);
+            this.MediaLabel.Location = new System.Drawing.Point(729, 0);
             this.MediaLabel.Name = "MediaLabel";
             this.MediaLabel.Size = new System.Drawing.Size(64, 32);
             this.MediaLabel.TabIndex = 14;
@@ -96,15 +97,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Controls.Add(this.MediaLabel);
             this.Controls.Add(this.DescriptionLabel);
             this.Controls.Add(this.TitleBox);
             this.Controls.Add(this.UsernameLabel);
             this.Controls.Add(this.pictureBox2);
             this.Name = "ReviewDataMediaInfo";
-            this.Size = new System.Drawing.Size(656, 222);
+            this.Size = new System.Drawing.Size(793, 222);
             this.Load += new System.EventHandler(this.ReviewData_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

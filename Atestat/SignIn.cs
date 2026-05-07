@@ -17,6 +17,9 @@ namespace Atestat
         {
             InitializeComponent();
 
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
             LoginButton.FlatStyle = FlatStyle.Flat;
             LoginButton.FlatAppearance.BorderSize = 0;
         }

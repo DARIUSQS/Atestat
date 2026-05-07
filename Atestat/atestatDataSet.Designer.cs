@@ -2930,7 +2930,7 @@ namespace Atestat.atestatDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[4];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[5];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = @"SELECT        r.Id AS ReviewId, r.text, r.date AS ReviewDate, r.title AS ReviewTitle,  u.Id AS UserId, u.name, u.email, i.Id AS ItemId, i.title, i.description, i.author
@@ -2942,30 +2942,35 @@ WHERE        (u.Id = @UserId)";
             this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UserId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "UserId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = @"SELECT        r.Id AS ReviewId, r.text, r.date AS ReviewDate, r.title AS ReviewTitle,  u.Id AS UserId, u.name, u.email, i.Id AS ItemId, i.title, i.description, i.author
+            this._commandCollection[1].CommandText = "DELETE FROM Review\nWHERE Id = @ReviewId;";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ReviewId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[2].Connection = this.Connection;
+            this._commandCollection[2].CommandText = @"SELECT        r.Id AS ReviewId, r.text, r.date AS ReviewDate, r.title AS ReviewTitle,  u.Id AS UserId, u.name, u.email, i.Id AS ItemId, i.title, i.description, i.author
 FROM            Review AS r INNER JOIN
                          [User] AS u ON r.user_id = u.Id INNER JOIN
                          Items AS i ON r.item_id = i.Id
 WHERE        (i.Id = @ItemId)";
-            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ItemId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
-            this._commandCollection[2].Connection = this.Connection;
-            this._commandCollection[2].CommandText = "SELECT \n    Review.Id,\n    Review.text,\n    Review.date,\n    Review.user_id,\n    " +
-                "Review.item_id,\n    Review.title,\n    [User].name AS username\nFROM Review\nINNER " +
-                "JOIN [User] ON Review.user_id = [User].Id\nWHERE Review.item_id = @ItemId;";
             this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "item_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ItemId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[3] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[3].Connection = this.Connection;
-            this._commandCollection[3].CommandText = "INSERT INTO [dbo].[Review] ([text], [date], [user_id], [item_id], [title]) VALUES" +
-                " (@text, @date, @user_id, @item_id, @title)";
+            this._commandCollection[3].CommandText = "SELECT \n    Review.Id,\n    Review.text,\n    Review.date,\n    Review.user_id,\n    " +
+                "Review.item_id,\n    Review.title,\n    [User].name AS username\nFROM Review\nINNER " +
+                "JOIN [User] ON Review.user_id = [User].Id\nWHERE Review.item_id = @ItemId;";
             this._commandCollection[3].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@text", global::System.Data.SqlDbType.VarChar, 1000, global::System.Data.ParameterDirection.Input, 0, 0, "text", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@date", global::System.Data.SqlDbType.Date, 3, global::System.Data.ParameterDirection.Input, 0, 0, "date", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@user_id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "user_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@item_id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "item_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@title", global::System.Data.SqlDbType.VarChar, 512, global::System.Data.ParameterDirection.Input, 0, 0, "title", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ItemId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "item_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[4].Connection = this.Connection;
+            this._commandCollection[4].CommandText = "INSERT INTO [dbo].[Review] ([text], [date], [user_id], [item_id], [title]) VALUES" +
+                " (@text, @date, @user_id, @item_id, @title)";
+            this._commandCollection[4].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@text", global::System.Data.SqlDbType.VarChar, 1000, global::System.Data.ParameterDirection.Input, 0, 0, "text", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@date", global::System.Data.SqlDbType.Date, 3, global::System.Data.ParameterDirection.Input, 0, 0, "date", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@user_id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "user_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@item_id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "item_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@title", global::System.Data.SqlDbType.VarChar, 512, global::System.Data.ParameterDirection.Input, 0, 0, "title", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2999,7 +3004,7 @@ WHERE        (i.Id = @ItemId)";
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
         public virtual int FillByMedia(atestatDataSet.ReviewDataTable dataTable, int ItemId) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand = this.CommandCollection[2];
             this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ItemId));
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3013,7 +3018,7 @@ WHERE        (i.Id = @ItemId)";
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
         public virtual atestatDataSet.ReviewDataTable GetDataByMedia(int ItemId) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand = this.CommandCollection[2];
             this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ItemId));
             atestatDataSet.ReviewDataTable dataTable = new atestatDataSet.ReviewDataTable();
             this.Adapter.Fill(dataTable);
@@ -3025,7 +3030,7 @@ WHERE        (i.Id = @ItemId)";
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
         public virtual int FillByUser(atestatDataSet.ReviewDataTable dataTable, int ItemId) {
-            this.Adapter.SelectCommand = this.CommandCollection[2];
+            this.Adapter.SelectCommand = this.CommandCollection[3];
             this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ItemId));
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3039,7 +3044,7 @@ WHERE        (i.Id = @ItemId)";
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
         public virtual atestatDataSet.ReviewDataTable GetDataByUser(int ItemId) {
-            this.Adapter.SelectCommand = this.CommandCollection[2];
+            this.Adapter.SelectCommand = this.CommandCollection[3];
             this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ItemId));
             atestatDataSet.ReviewDataTable dataTable = new atestatDataSet.ReviewDataTable();
             this.Adapter.Fill(dataTable);
@@ -3049,9 +3054,33 @@ WHERE        (i.Id = @ItemId)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, false)]
+        public virtual int DeleteQuery(int ReviewId) {
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[1];
+            command.Parameters[0].Value = ((int)(ReviewId));
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                command.Connection.Open();
+            }
+            int returnValue;
+            try {
+                returnValue = command.ExecuteNonQuery();
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    command.Connection.Close();
+                }
+            }
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, false)]
         public virtual int InsertData(string text, string date, int user_id, int item_id, string title) {
-            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[3];
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[4];
             if ((text == null)) {
                 throw new global::System.ArgumentNullException("text");
             }

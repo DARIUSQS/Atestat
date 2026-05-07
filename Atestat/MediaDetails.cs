@@ -12,31 +12,36 @@ namespace Atestat
 {
     public partial class MediaDetails : Form
     {
-        MediaInformation mediaInformation;
+        MediaInformation medInf;
         public MediaDetails(MediaInformation mediaInformation)
         {
-            Init(mediaInformation);
+            medInf = mediaInformation;
+            Init();
         }
 
-        void Init(MediaInformation mediaInformation)
+        void Init()
         {
+            this.Controls.Clear();
             InitializeComponent();
-            this.AutoScroll = true;
-            this.mediaInformation = mediaInformation;
 
-            TitleLabel.Text = mediaInformation.Title;
-            AuthorLabel.Text = mediaInformation.Author;
-            DescriptionLabel.Text = mediaInformation.Description;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
+            this.AutoScroll = true;
+            this.VerticalScroll.Visible = false;
+
+            TitleLabel.Text = medInf.Title;
+            AuthorLabel.Text = medInf.Author;
+            DescriptionLabel.Text = medInf.Description;
 
             var adapter = new atestatDataSetTableAdapters.ReviewTableAdapter();
-            var table = adapter.GetDataByMedia(mediaInformation.Id);
+            var table = adapter.GetDataByMedia(medInf.Id);
 
             foreach (var row in table)
             {
-                var card = new ReviewData();
-                card.ReviewDataInfo = new ReviewInformation
+                ReviewInformation ReviewDataInfo = new ReviewInformation
                 {
-                    Id = row.ItemId,
+                    Id = row.ReviewId,
                     Title = row.ReviewTitle,
                     Author = row.name,
                     Text = row.text,
@@ -44,6 +49,7 @@ namespace Atestat
                     UserId = row.UserId,
                     ItemId = row.ItemId
                 };
+                var card = new ReviewData(ReviewDataInfo, Init);
                 flowLayoutPanel1.Controls.Add(card);
             }
         }
@@ -69,10 +75,9 @@ namespace Atestat
             string title = richTextBox1.Text;
 
             var adapter = new atestatDataSetTableAdapters.ReviewTableAdapter();
-            adapter.InsertData(review, DateTime.Now.ToString(), Login.CurrentUser.Id, mediaInformation.Id, title);
+            adapter.InsertData(review, DateTime.Now.ToString(), Login.CurrentUser.Id, medInf.Id, title);
             //MessageBox.Show("Media " + mediaInformation.Id + "; User: " + Login.CurrentUser.Id);
-            this.Controls.Clear();
-            Init(mediaInformation);
+            Init();
         }
 
         private void DescriptionLabel_Click(object sender, EventArgs e)

@@ -22,12 +22,10 @@ C:\Dev\Atestat\Atestat\bin\Debug\System.CodeDom.dll
 C:\Dev\Atestat\Atestat\bin\Debug\Newtonsoft.Json.xml
 C:\Dev\Atestat\Atestat\bin\Debug\System.CodeDom.xml
 C:\Dev\Atestat\Atestat\obj\Debug\Atestat.csproj.Up2Date
-C:\Dev\Atestat\Atestat\bin\Debug\Krypton.Toolkit.dll
 C:\Dev\Atestat\Atestat\bin\Debug\System.Buffers.dll
 C:\Dev\Atestat\Atestat\bin\Debug\System.Memory.dll
 C:\Dev\Atestat\Atestat\bin\Debug\System.Numerics.Vectors.dll
 C:\Dev\Atestat\Atestat\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Dev\Atestat\Atestat\bin\Debug\Krypton.Toolkit.xml
 C:\Dev\Atestat\Atestat\bin\Debug\System.Buffers.xml
 C:\Dev\Atestat\Atestat\bin\Debug\System.Memory.xml
 C:\Dev\Atestat\Atestat\bin\Debug\System.Numerics.Vectors.xml

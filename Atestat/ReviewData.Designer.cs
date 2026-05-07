@@ -66,7 +66,7 @@
             this.DescriptionLabel.ForeColor = System.Drawing.SystemColors.Control;
             this.DescriptionLabel.Location = new System.Drawing.Point(130, 58);
             this.DescriptionLabel.Name = "DescriptionLabel";
-            this.DescriptionLabel.Size = new System.Drawing.Size(523, 164);
+            this.DescriptionLabel.Size = new System.Drawing.Size(690, 164);
             this.DescriptionLabel.TabIndex = 12;
             this.DescriptionLabel.Text = "Description";
             this.DescriptionLabel.Click += new System.EventHandler(this.DescriptionLabel_Click);
@@ -86,7 +86,7 @@
             this.RemoveButton.BackColor = System.Drawing.Color.RosyBrown;
             this.RemoveButton.Font = new System.Drawing.Font("Segoe UI", 12.25F);
             this.RemoveButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.RemoveButton.Location = new System.Drawing.Point(516, 8);
+            this.RemoveButton.Location = new System.Drawing.Point(683, 8);
             this.RemoveButton.Name = "RemoveButton";
             this.RemoveButton.Size = new System.Drawing.Size(137, 43);
             this.RemoveButton.TabIndex = 13;
@@ -99,14 +99,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(70)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Controls.Add(this.RemoveButton);
             this.Controls.Add(this.DescriptionLabel);
             this.Controls.Add(this.TitleBox);
             this.Controls.Add(this.UsernameLabel);
             this.Controls.Add(this.pictureBox2);
             this.Name = "ReviewData";
-            this.Size = new System.Drawing.Size(656, 222);
+            this.Size = new System.Drawing.Size(836, 222);
             this.Load += new System.EventHandler(this.ReviewData_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
