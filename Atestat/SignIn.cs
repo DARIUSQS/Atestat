@@ -53,7 +53,7 @@ namespace Atestat
             try
             {
                 var adapter = new atestatDataSetTableAdapters.UserTableAdapter();
-                adapter.AddUser(username, email, bday, password);
+                adapter.AddUser(username, email, bday, password, 0);
                 MessageBox.Show("User Created Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch( Exception ex)

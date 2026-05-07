@@ -15,6 +15,41 @@ namespace Atestat.Controls
         public ReviewControl()
         {
             InitializeComponent();
+
+            flowLayoutPanel1.AutoScroll = true;
+
+            var adapter = new atestatDataSetTableAdapters.ReviewTableAdapter();
+            var table = adapter.GetDataByUserReviews(Login.CurrentUser.Id);
+
+            foreach (var row in table)
+            {
+                MediaInformation MediaInfo = new MediaInformation
+                {
+                    Id = row.ItemId,
+                    Title = row.title,
+                    Author = row.author,
+                    Description = row.description
+                };
+
+                ReviewInformation ReviewInfo = new ReviewInformation
+                {
+                    Id = row.ReviewId,
+                    Title = row.ReviewTitle,
+                    Author = row.author,
+                    Text = row.text,
+                    Date = row.ReviewDate.ToString(),
+                    UserId = row.UserId,
+                    ItemId = row.ItemId
+                };
+
+                var card = new ReviewDataMediaInfo(ReviewInfo, MediaInfo);
+                flowLayoutPanel1.Controls.Add(card);
+            }
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

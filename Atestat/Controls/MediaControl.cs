@@ -26,6 +26,7 @@ namespace Atestat.Controls
                 var card = new MediaBlock();
                 card.MediaInfo = new MediaInformation
                 {
+                    Id = row.Id,
                     Title = row.title,
                     Author = row.author,
                     Description = row.description

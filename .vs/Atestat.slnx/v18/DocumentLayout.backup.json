@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Dev\\Atestat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|c:\\dev\\atestat\\atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\atestatdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
@@ -19,48 +19,68 @@
       "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\mediadetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|c:\\dev\\atestat\\atestat\\controls\\mediacontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\controls\\mediacontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\mediadetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\mediadetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\reviewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\reviewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\reviewdatamediainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\reviewdatamediainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\controls\\reviewcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\controls\\reviewcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\controls\\reviewcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\controls\\reviewcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\controls\\mediacontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\controls\\mediacontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\controls\\mediacontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\controls\\mediacontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\controls\\reviewcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\controls\\reviewcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\reviewdatamediainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\reviewdatamediainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\reviewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\reviewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\mediablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|solutionrelative:atestat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0A9A176-FBF4-4AC0-8A5D-0A9C0A18CF91}|Atestat\\Atestat.csproj|C:\\Dev\\Atestat\\atestat\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,8 +104,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 209,
-          "SelectedChildIndex": 10,
+          "DockedWidth": 190,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,128 +117,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MediaDetails.cs",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\MediaDetails.cs",
-              "RelativeDocumentMoniker": "Atestat\\MediaDetails.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\MediaDetails.cs",
-              "RelativeToolTip": "Atestat\\MediaDetails.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T14:55:52.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "atestatDataSet.xsd",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\atestatDataSet.xsd",
-              "RelativeDocumentMoniker": "Atestat\\atestatDataSet.xsd",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\atestatDataSet.xsd",
-              "RelativeToolTip": "Atestat\\atestatDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2026-04-29T18:10:15.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Main.cs",
-              "RelativeDocumentMoniker": "Atestat\\Main.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Main.cs [Design]",
-              "RelativeToolTip": "Atestat\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T15:02:32.982Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Main.cs",
-              "RelativeDocumentMoniker": "Atestat\\Main.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Main.cs",
-              "RelativeToolTip": "Atestat\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:21:52.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Login.cs",
-              "RelativeDocumentMoniker": "Atestat\\Login.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Login.cs [Design]",
-              "RelativeToolTip": "Atestat\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T19:37:15.875Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Login.cs",
-              "RelativeDocumentMoniker": "Atestat\\Login.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Login.cs",
-              "RelativeToolTip": "Atestat\\Login.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T16:23:32.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SignIn.cs [Design]",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs",
-              "RelativeDocumentMoniker": "Atestat\\SignIn.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs [Design]",
-              "RelativeToolTip": "Atestat\\SignIn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T16:32:00.981Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignIn.cs",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs",
-              "RelativeDocumentMoniker": "Atestat\\SignIn.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs",
-              "RelativeToolTip": "Atestat\\SignIn.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAtwEgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T16:33:12.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MediaBlock.cs",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\MediaBlock.cs",
-              "RelativeDocumentMoniker": "Atestat\\MediaBlock.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\MediaBlock.cs",
-              "RelativeToolTip": "Atestat\\MediaBlock.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowEkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:40:04.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "MediaBlock.cs [Design]",
               "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\MediaBlock.cs",
               "RelativeDocumentMoniker": "Atestat\\MediaBlock.cs",
@@ -230,40 +133,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MediaControl.cs",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Controls\\MediaControl.cs",
-              "RelativeDocumentMoniker": "Atestat\\Controls\\MediaControl.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Controls\\MediaControl.cs",
-              "RelativeToolTip": "Atestat\\Controls\\MediaControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Login.cs",
+              "RelativeDocumentMoniker": "Atestat\\Login.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Login.cs [Design]",
+              "RelativeToolTip": "Atestat\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T16:12:08.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T19:37:15.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
+              "Title": "ReviewDataMediaInfo.cs [Design]",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\ReviewDataMediaInfo.cs",
+              "RelativeDocumentMoniker": "Atestat\\ReviewDataMediaInfo.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\ReviewDataMediaInfo.cs [Design]",
+              "RelativeToolTip": "Atestat\\ReviewDataMediaInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:28:29.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MediaDetails.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\MediaDetails.cs",
+              "RelativeDocumentMoniker": "Atestat\\MediaDetails.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\MediaDetails.cs",
+              "RelativeToolTip": "Atestat\\MediaDetails.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T14:55:52.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "atestatDataSet.xsd",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\atestatDataSet.xsd",
+              "RelativeDocumentMoniker": "Atestat\\atestatDataSet.xsd",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\atestatDataSet.xsd",
+              "RelativeToolTip": "Atestat\\atestatDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-05-05T19:01:22.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Main.cs",
+              "RelativeDocumentMoniker": "Atestat\\Main.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Main.cs [Design]",
+              "RelativeToolTip": "Atestat\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:08:29.232Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MediaDetails.cs [Design]",
               "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\MediaDetails.cs",
               "RelativeDocumentMoniker": "Atestat\\MediaDetails.cs",
               "ToolTip": "C:\\Dev\\Atestat\\Atestat\\MediaDetails.cs [Design]",
               "RelativeToolTip": "Atestat\\MediaDetails.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T14:48:20.951Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-02T14:48:20.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
+              "Title": "ReviewData.cs [Design]",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\ReviewData.cs",
+              "RelativeDocumentMoniker": "Atestat\\ReviewData.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\ReviewData.cs [Design]",
+              "RelativeToolTip": "Atestat\\ReviewData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T12:57:02.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Core.cs",
               "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Core.cs",
               "RelativeDocumentMoniker": "Atestat\\Core.cs",
               "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Core.cs",
               "RelativeToolTip": "Atestat\\Core.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAACA1y5tOJgqwC8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T17:49:02.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignIn.cs [Design]",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs",
+              "RelativeDocumentMoniker": "Atestat\\SignIn.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs [Design]",
+              "RelativeToolTip": "Atestat\\SignIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T16:32:00.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReviewControl.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Controls\\ReviewControl.cs",
+              "RelativeDocumentMoniker": "Atestat\\Controls\\ReviewControl.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Controls\\ReviewControl.cs",
+              "RelativeToolTip": "Atestat\\Controls\\ReviewControl.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwCQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:23:49.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReviewControl.cs [Design]",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Controls\\ReviewControl.cs",
+              "RelativeDocumentMoniker": "Atestat\\Controls\\ReviewControl.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Controls\\ReviewControl.cs [Design]",
+              "RelativeToolTip": "Atestat\\Controls\\ReviewControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T16:23:53.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MediaControl.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Controls\\MediaControl.cs",
+              "RelativeDocumentMoniker": "Atestat\\Controls\\MediaControl.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Controls\\MediaControl.cs",
+              "RelativeToolTip": "Atestat\\Controls\\MediaControl.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA3wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T16:12:08.202Z"
             },
             {
               "$type": "Document",
@@ -279,17 +282,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ReviewControl.cs [Design]",
-              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Controls\\ReviewControl.cs",
-              "RelativeDocumentMoniker": "Atestat\\Controls\\ReviewControl.cs",
-              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Controls\\ReviewControl.cs [Design]",
-              "RelativeToolTip": "Atestat\\Controls\\ReviewControl.cs [Design]",
+              "Title": "ReviewDataMediaInfo.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\ReviewDataMediaInfo.cs",
+              "RelativeDocumentMoniker": "Atestat\\ReviewDataMediaInfo.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\ReviewDataMediaInfo.cs",
+              "RelativeToolTip": "Atestat\\ReviewDataMediaInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T16:23:53.14Z"
+              "WhenOpened": "2026-05-06T19:28:41.981Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "ReviewData.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\ReviewData.cs",
+              "RelativeDocumentMoniker": "Atestat\\ReviewData.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\ReviewData.cs",
+              "RelativeToolTip": "Atestat\\ReviewData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T16:19:59.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Main.cs",
+              "RelativeDocumentMoniker": "Atestat\\Main.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Main.cs",
+              "RelativeToolTip": "Atestat\\Main.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T21:21:52.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MediaBlock.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\MediaBlock.cs",
+              "RelativeDocumentMoniker": "Atestat\\MediaBlock.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\MediaBlock.cs",
+              "RelativeToolTip": "Atestat\\MediaBlock.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T16:42:59.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs",
+              "RelativeDocumentMoniker": "Atestat\\SignIn.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\SignIn.cs",
+              "RelativeToolTip": "Atestat\\SignIn.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwDgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T16:33:12.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Login.cs",
+              "RelativeDocumentMoniker": "Atestat\\Login.cs",
+              "ToolTip": "C:\\Dev\\Atestat\\Atestat\\Login.cs",
+              "RelativeToolTip": "Atestat\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAewFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T16:23:32.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\Main.Designer.cs",
               "RelativeDocumentMoniker": "Atestat\\Main.Designer.cs",
@@ -302,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\App.config",
               "RelativeDocumentMoniker": "Atestat\\App.config",
@@ -315,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "atestatDataSet.cs",
               "DocumentMoniker": "C:\\Dev\\Atestat\\Atestat\\atestatDataSet.cs",
               "RelativeDocumentMoniker": "Atestat\\atestatDataSet.cs",
@@ -323,12 +388,11 @@
               "RelativeToolTip": "Atestat\\atestatDataSet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:28:25.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:28:25.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "dbo.User.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__DEV_ATESTAT_ATESTAT_ATESTAT.MDF/True/SqlTable/dbo.User.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__DEV_ATESTAT_ATESTAT_ATESTAT.MDF/True/SqlTable/dbo.User.sql",

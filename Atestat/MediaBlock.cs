@@ -10,13 +10,7 @@ using System.Windows.Forms;
 
 namespace Atestat
 {
-    public struct MediaInformation
-    {
-        public int Id;
-        public string Title;
-        public string Author;
-        public string Description;
-    };
+
 
     public partial class MediaBlock : UserControl
     {
@@ -36,8 +30,6 @@ namespace Atestat
         {
 
         }
-
-
         public MediaInformation MediaInfo
         {
             get { return mediaInfo; }
@@ -64,12 +56,7 @@ namespace Atestat
         {
             if (!isFormOpen)
             {
-                MediaDetails mediaForm = new MediaDetails();
-
-                //mediaForm.Id = mediaInfo.Id;
-                mediaForm.Title = mediaInfo.Title;
-                mediaForm.Author = mediaInfo.Author;
-                mediaForm.Description = mediaInfo.Description;
+                MediaDetails mediaForm = new MediaDetails(mediaInfo);
 
                 mediaForm.Show();
                 isFormOpen = true;

@@ -11,12 +11,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Atestat
 {
-    public struct User
-    {
-        public int Id;
-        public string Username;
-        public string Password;
-    };
+
 
     public partial class Login : Form
     { 
