@@ -35,18 +35,23 @@ namespace Atestat.Controls
                 {
                     Id = row.ReviewId,
                     Title = row.ReviewTitle,
-                    Author = row.author,
+                    MediaTitle = row.title,
+                    Author = row.name,
                     Text = row.text,
-                    Date = row.ReviewDate.ToString(),
+                    Date = row.ReviewDate.ToString("yyyy-MM-dd HH:mm:ss"),
                     UserId = row.UserId,
                     ItemId = row.ItemId
                 };
 
-                var card = new ReviewDataMediaInfo(ReviewInfo, MediaInfo);
+                var card = new ReviewDataMediaInfo(ReviewInfo, Init);
                 flowLayoutPanel1.Controls.Add(card);
             }
         }
 
+        private void Init()
+        {
+
+        }
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 

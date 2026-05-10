@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ViewUserButton = new System.Windows.Forms.Button();
             this.LogOutButton = new System.Windows.Forms.Button();
             this.UsernameLabel = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -44,11 +45,11 @@
             // 
             // mainPanel
             // 
-            this.mainPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Right;
             this.mainPanel.Location = new System.Drawing.Point(218, 0);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(819, 590);
+            this.mainPanel.Size = new System.Drawing.Size(906, 590);
             this.mainPanel.TabIndex = 1;
             this.mainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainPanel_Paint);
             // 
@@ -56,6 +57,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.ViewUserButton);
             this.panel1.Controls.Add(this.LogOutButton);
             this.panel1.Controls.Add(this.UsernameLabel);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -67,6 +69,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(218, 590);
             this.panel1.TabIndex = 1;
+            // 
+            // ViewUserButton
+            // 
+            this.ViewUserButton.BackColor = System.Drawing.Color.RosyBrown;
+            this.ViewUserButton.Font = new System.Drawing.Font("Segoe UI", 12.25F);
+            this.ViewUserButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.ViewUserButton.Location = new System.Drawing.Point(-1, 228);
+            this.ViewUserButton.Name = "ViewUserButton";
+            this.ViewUserButton.Size = new System.Drawing.Size(218, 68);
+            this.ViewUserButton.TabIndex = 14;
+            this.ViewUserButton.Text = "View All Users";
+            this.ViewUserButton.UseVisualStyleBackColor = false;
+            this.ViewUserButton.Click += new System.EventHandler(this.ViewUserButton_Click);
             // 
             // LogOutButton
             // 
@@ -142,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1037, 590);
+            this.ClientSize = new System.Drawing.Size(1124, 590);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.mainPanel);
             this.Name = "Main";
@@ -164,5 +179,6 @@
         private System.Windows.Forms.Button LogOutButton;
         private System.Windows.Forms.Label UsernameLabel;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button ViewUserButton;
     }
 }

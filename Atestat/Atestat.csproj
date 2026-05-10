@@ -140,6 +140,12 @@
     <Compile Include="Controls\MediaControl.Designer.cs">
       <DependentUpon>MediaControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ViewUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ViewUserControl.Designer.cs">
+      <DependentUpon>ViewUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\ReviewControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -158,6 +164,12 @@
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUserBlock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewUserBlock.Designer.cs">
+      <DependentUpon>ViewUserBlock.cs</DependentUpon>
     </Compile>
     <Compile Include="MediaBlock.cs">
       <SubType>UserControl</SubType>
@@ -193,6 +205,9 @@
     <EmbeddedResource Include="Controls\MediaControl.resx">
       <DependentUpon>MediaControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ViewUserControl.resx">
+      <DependentUpon>ViewUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\ReviewControl.resx">
       <DependentUpon>ReviewControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -201,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewUserBlock.resx">
+      <DependentUpon>ViewUserBlock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MediaBlock.resx">
       <DependentUpon>MediaBlock.cs</DependentUpon>

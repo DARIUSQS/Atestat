@@ -18,6 +18,7 @@ namespace Atestat
         {
             Media,
             Review,
+            User,
             None
         }
 
@@ -29,6 +30,8 @@ namespace Atestat
                 return PanelType.Media;
             else if (control is ReviewControl)
                 return PanelType.Review;
+            else if (control is ViewUserControl)
+                return PanelType.User;
             else
                 throw new ArgumentException("Unknown control type");
         }
@@ -59,6 +62,11 @@ namespace Atestat
             LogOutButton.FlatAppearance.BorderSize = 0;
 
             UsernameLabel.Text = Login.CurrentUser.Username;
+            if(Login.CurrentUser.Admin == 0) 
+            {
+                ViewUserButton.Hide();
+            }
+
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -88,6 +96,11 @@ namespace Atestat
             login.Show();
             this.Close();
             panelType = PanelType.None;
+        }
+
+        private void ViewUserButton_Click(object sender, EventArgs e)
+        {
+            SwitchPanel(new ViewUserControl());
         }
     }
 }

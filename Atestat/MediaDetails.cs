@@ -27,21 +27,37 @@ namespace Atestat
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
 
+            //this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            //this.MaximizeBox = false;
+
             this.AutoScroll = true;
-            this.VerticalScroll.Visible = false;
 
             TitleLabel.Text = medInf.Title;
-            AuthorLabel.Text = medInf.Author;
+            AuthorLabel.Text = "Author: " + medInf.Author;
+            datelabel.Text = "Release Date: " + medInf.Date;
             DescriptionLabel.Text = medInf.Description;
 
-            var adapter = new atestatDataSetTableAdapters.ReviewTableAdapter();
-            var table = adapter.GetDataByMedia(medInf.Id);
+            var table = Adapters.ReviewData.GetDataByMedia(medInf.Id);
+            int status = (int)Adapters.RatingsData.IsRated(Login.CurrentUser.Id, medInf.Id);
+
+            if (status == 0)
+            {
+                Adapters.RatingsData.InsertQuery(0, Login.CurrentUser.Id, medInf.Id);
+            }
+
+            int rating = (int)Adapters.RatingsData.GetSpecificRating(Login.CurrentUser.Id, medInf.Id);
+            if(rating == 1) pictureBox1_Click(null, null);
+            else if (rating == 2) pictureBox3_Click(null, null);
+            else if (rating == 3) pictureBox4_Click(null, null);
+            else if (rating == 4) pictureBox5_Click(null, null);
+            else if (rating == 5) pictureBox6_Click(null, null);
 
             foreach (var row in table)
             {
                 ReviewInformation ReviewDataInfo = new ReviewInformation
                 {
                     Id = row.ReviewId,
+                    MediaTitle = row.title,
                     Title = row.ReviewTitle,
                     Author = row.name,
                     Text = row.text,
@@ -93,6 +109,65 @@ namespace Atestat
         private void TitleLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = ProgramManager.m_FullStar;
+            pictureBox2.Image = ProgramManager.m_EmptyStar;
+            pictureBox3.Image = ProgramManager.m_EmptyStar;
+            pictureBox4.Image = ProgramManager.m_EmptyStar;
+            pictureBox5.Image = ProgramManager.m_EmptyStar;
+
+            Adapters.RatingsData.UpdateQuery(1, Login.CurrentUser.Id, medInf.Id);
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = ProgramManager.m_FullStar;
+            pictureBox2.Image = ProgramManager.m_FullStar;
+            pictureBox3.Image = ProgramManager.m_EmptyStar;
+            pictureBox4.Image = ProgramManager.m_EmptyStar;
+            pictureBox5.Image = ProgramManager.m_EmptyStar;
+
+            Adapters.RatingsData.UpdateQuery(2, Login.CurrentUser.Id, medInf.Id);
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = ProgramManager.m_FullStar;
+            pictureBox2.Image = ProgramManager.m_FullStar;
+            pictureBox3.Image = ProgramManager.m_FullStar;
+            pictureBox4.Image = ProgramManager.m_EmptyStar;
+            pictureBox5.Image = ProgramManager.m_EmptyStar;
+
+            Adapters.RatingsData.UpdateQuery(3, Login.CurrentUser.Id, medInf.Id);
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = ProgramManager.m_FullStar;
+            pictureBox2.Image = ProgramManager.m_FullStar;
+            pictureBox3.Image = ProgramManager.m_FullStar;
+            pictureBox4.Image = ProgramManager.m_FullStar;
+            pictureBox5.Image = ProgramManager.m_EmptyStar;
+
+            Adapters.RatingsData.UpdateQuery(4, Login.CurrentUser.Id, medInf.Id);
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = ProgramManager.m_FullStar;
+            pictureBox2.Image = ProgramManager.m_FullStar;
+            pictureBox3.Image = ProgramManager.m_FullStar;
+            pictureBox4.Image = ProgramManager.m_FullStar;
+            pictureBox5.Image = ProgramManager.m_FullStar;
+
+            Adapters.RatingsData.UpdateQuery(5, Login.CurrentUser.Id, medInf.Id);
+        }
+
+        private void MediaDetails_FormClosed(object sender, FormClosedEventArgs e)
+        {
         }
     }
 }

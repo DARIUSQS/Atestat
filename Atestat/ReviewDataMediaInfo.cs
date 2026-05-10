@@ -8,22 +8,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Atestat
 {
     public partial class ReviewDataMediaInfo : UserControl
     {
-        public ReviewDataMediaInfo(ReviewInformation reviewInfo, MediaInformation mediaInfo)
+        ReviewInformation reviewData;
+        Action act;
+        bool EditStatus = false;
+        public ReviewDataMediaInfo(ReviewInformation reviewData, Action Init)
         {
             InitializeComponent();
-            TitleBox.Text = reviewInfo.Title;
-            DescriptionLabel.Text = reviewInfo.Text;
-            UsernameLabel.Text = Login.CurrentUser.Username;
+            DescriptionLabel.ReadOnly = true;
+            this.reviewData = reviewData;
+            act = Init;
 
-            MediaLabel.Text = mediaInfo.Title;
+            DescriptionLabel.ReadOnly = true;
+            TitleBox.ReadOnly = true;
         }
-
         private void ReviewData_Load(object sender, EventArgs e)
         {
+            TitleBox.Text = reviewData.Title;
+            DescriptionLabel.Text = reviewData.Text;
+            UsernameLabel.Text = reviewData.Author;
+            MediaLabel.Text = reviewData.MediaTitle;
         }
 
         private void DescriptionLabel_Click(object sender, EventArgs e)
@@ -38,7 +46,32 @@ namespace Atestat
 
         private void RemoveButton_Click(object sender, EventArgs e)
         {
+            var adapter = new atestatDataSetTableAdapters.ReviewTableAdapter();
+            adapter.DeleteQuery(reviewData.Id);
+            //MessageBox.Show("Review Deleted: " + reviewData.Id, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            act();
+        }
 
+        private void EditButton_Click_1(object sender, EventArgs e)
+        {
+            if (EditStatus)
+            {
+                EditButton.Text = "Edit";
+                Adapters.ReviewData.UpdateQuery(TitleBox.Text, DescriptionLabel.Text, reviewData.Id);
+                DescriptionLabel.ReadOnly = true;
+                TitleBox.ReadOnly = true;
+                DescriptionLabel.BorderStyle = BorderStyle.None;
+                TitleBox.BorderStyle = BorderStyle.None;
+            }
+            else
+            {
+                EditButton.Text = "Save";
+                DescriptionLabel.ReadOnly = false;
+                TitleBox.ReadOnly = false;
+                DescriptionLabel.BorderStyle = BorderStyle.FixedSingle;
+                TitleBox.BorderStyle = BorderStyle.FixedSingle;
+            }
+            EditStatus = !EditStatus;
         }
     }
 }

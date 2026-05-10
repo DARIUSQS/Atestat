@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Atestat.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,11 +18,12 @@ namespace Atestat
         static bool isFormOpen = false;
 
         MediaInformation mediaInfo;
-
-        public MediaBlock()
+        MediaControl mediaControl;
+        public MediaBlock(MediaControl mc)
         {
             InitializeComponent();
 
+            mediaControl = mc;
             viewButton.FlatStyle = FlatStyle.Flat;
             viewButton.FlatAppearance.BorderSize = 0;
         }
@@ -39,6 +41,18 @@ namespace Atestat
         {
             get { return label1.Text; }
             set { label1.Text = value; }
+        }
+
+        public string Date
+        {
+            get { return datelabel.Text; }
+            set { datelabel.Text = value; }
+        }
+
+        public string Rating
+        {
+            get { return ratinglabel.Text; }
+            set { ratinglabel.Text = value; }
         }
 
         public int Id
@@ -60,7 +74,12 @@ namespace Atestat
 
                 mediaForm.Show();
                 isFormOpen = true;
-                mediaForm.FormClosed += (s, args) => isFormOpen = false;
+                mediaForm.FormClosed += (s, args) =>
+                {
+                    isFormOpen = false;
+                    double ratingtable = Convert.ToDouble(Adapters.RatingsData.GetAverageRating(mediaInfo.Id));
+                    ratinglabel.Text = ratingtable.ToString();
+                };
             }
         }
     }
