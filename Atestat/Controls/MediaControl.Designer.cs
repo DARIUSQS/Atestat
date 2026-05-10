@@ -46,7 +46,6 @@
             this.UIdate = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.AddMedia = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +61,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.panel1.Controls.Add(this.AddMedia);
             this.panel1.Controls.Add(this.SortCategoryMovie);
             this.panel1.Controls.Add(this.SortCategoryTV);
             this.panel1.Controls.Add(this.SortCategoryBook);
@@ -264,18 +262,6 @@
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
-            // AddMedia
-            // 
-            this.AddMedia.BackColor = System.Drawing.Color.RosyBrown;
-            this.AddMedia.Font = new System.Drawing.Font("Segoe UI", 12.25F);
-            this.AddMedia.ForeColor = System.Drawing.SystemColors.Control;
-            this.AddMedia.Location = new System.Drawing.Point(751, 46);
-            this.AddMedia.Name = "AddMedia";
-            this.AddMedia.Size = new System.Drawing.Size(152, 43);
-            this.AddMedia.TabIndex = 14;
-            this.AddMedia.Text = "Add Media Item";
-            this.AddMedia.UseVisualStyleBackColor = false;
-            // 
             // MediaControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -310,6 +296,5 @@
         private System.Windows.Forms.Button SortCategoryTV;
         private System.Windows.Forms.Button SortCategoryBook;
         private System.Windows.Forms.Label SortCategoryLabel;
-        private System.Windows.Forms.Button AddMedia;
     }
 }

@@ -72,6 +72,7 @@ namespace Atestat.Controls
                         Author = row.author,
                         Description = row.description,
                         Date = row.date.ToString("yyyy-MM-dd"),
+                        ImagePath = row.image,
                     };
                     card.Title = row.title;
                     card.Date = row.date.ToString("yyyy-MM-dd");

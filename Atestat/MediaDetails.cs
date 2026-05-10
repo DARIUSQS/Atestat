@@ -36,6 +36,7 @@ namespace Atestat
             AuthorLabel.Text = "Author: " + medInf.Author;
             datelabel.Text = "Release Date: " + medInf.Date;
             DescriptionLabel.Text = medInf.Description;
+            if(string.IsNullOrWhiteSpace(medInf.ImagePath) == false) ItemPhoto.Image = Image.FromFile(medInf.ImagePath);
 
             var table = Adapters.ReviewData.GetDataByMedia(medInf.Id);
             int status = (int)Adapters.RatingsData.IsRated(Login.CurrentUser.Id, medInf.Id);

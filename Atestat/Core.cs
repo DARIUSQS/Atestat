@@ -55,6 +55,7 @@ namespace Atestat
         public string Author;
         public string Description;
         public string Date;
+        public string ImagePath;
     };
 
     public struct ReviewInformation
